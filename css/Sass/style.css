@@ -1,30 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
 body {
-  background-color: hsl(0, 0%, 98%);
+  background-color: #fafafa;
   line-height: 1.7;
   transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
-  font-family: "Public Sans", sans-serif;
-}
+  font-family: 'Public Sans', sans-serif; }
 
 html,
 body {
-  overflow-x: hidden;
-}
+  overflow-x: hidden; }
 
 h1, h2, h3, h4, h5 {
-  color: hsl(233, 26%, 24%) !important;
-}
+  color: #2d314d !important; }
 
 p {
-  color: hsl(233, 8%, 62%) !important;
-}
+  color: #9698a6 !important; }
 
 .mainBtn {
-  background: linear-gradient(135deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%)) !important;
+  background: linear-gradient(135deg, #31d35c, #2bb7da) !important;
   padding: 8px 18px !important;
   border-radius: 20px !important;
   -webkit-border-radius: 20px !important;
@@ -32,105 +28,84 @@ p {
   -ms-border-radius: 20px !important;
   -o-border-radius: 20px !important;
   width: 160px;
-  color: white !important;
-}
-.mainBtn:hover {
-  opacity: 0.5;
-}
+  color: white !important; }
+  .mainBtn:hover {
+    opacity: .5; }
 
 .section-padding {
   padding-top: 170px;
-  padding-bottom: 170px;
-}
-@media (max-width: 767px) {
-  .section-padding {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-}
+  padding-bottom: 170px; }
+  @media (max-width: 767px) {
+    .section-padding {
+      padding-top: 100px;
+      padding-bottom: 100px; } }
 
 @media (max-width: 767px) {
   #home .content {
-    margin-top: 210px;
-  }
-}
+    margin-top: 280px !important; } }
 
 .image-container img {
-  position: absolute;
-}
+  position: absolute; }
 .image-container .intro-desktop-img, .image-container .intro-mobile-img {
   z-index: -2;
-  top: -40px;
-}
+  top: -40px; }
 .image-container .mobile-img {
   right: -100px;
   top: -50px;
-  z-index: -1;
-}
-@media (max-width: 767px) {
-  .image-container .mobile-img {
-    right: 0;
-    width: 100% !important;
-  }
-}
+  z-index: -1; }
+  @media (max-width: 767px) {
+    .image-container .mobile-img {
+      right: 0;
+      width: 100% !important; } }
 
 #about {
-  background: hsl(220, 16%, 96%);
+  background: #f3f4f6;
   padding-top: 100px;
-  padding-bottom: 100px;
-}
+  padding-bottom: 100px; }
 
 .card {
   border: none !important;
-  width: 16.5rem !important;
-}
-@media (max-width: 767px) {
-  .card {
-    width: 21rem !important;
-  }
-}
+  width: 16.5rem !important; }
+  @media (max-width: 767px) {
+    .card {
+      width: 21rem !important; } }
 
 footer {
-  background: hsl(233, 26%, 24%);
+  background: #2d314d;
   padding-top: 20px;
-  padding-bottom: 20px;
-}
+  padding-bottom: 20px; }
 
 .navbar {
-  background-color: hsl(0, 0%, 98%) !important;
-}
+  background-color: #fafafa !important; }
 
 @media (max-width: 991px) {
   .navbar-nav {
     width: 360px;
     margin: 20px auto;
     text-align: center;
-    background-color: hsl(0, 0%, 100%);
+    background-color: white;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
     padding: 20px;
-    margin-top: 30px;
-  }
-  .navbar-nav .nav-item .nav-link {
-    text-align: center;
-    margin-top: 5px !important;
-    margin-bottom: 5px !important;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-  }
-  .navbar-nav .mainBtn-nav {
-    text-align: center !important;
-    margin: 0 auto !important;
-  }
-}
+    margin-top: 30px; }
+    .navbar-nav .nav-item .nav-link {
+      text-align: center;
+      margin-top: 5px !important;
+      margin-bottom: 5px !important;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px; }
+    .navbar-nav .mainBtn-nav {
+      text-align: center !important;
+      margin: 0 auto  !important; } }
 .toggler {
   box-shadow: none !important;
   border: none !important;
-  background: none !important;
-}/*# sourceMappingURL=style.css.map */
+  background: none  !important; }
+
+/*# sourceMappingURL=style.css.map */
