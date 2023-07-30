@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+
+body {
+    background-color: $very-light-gray;
+    line-height: 1.7;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+h1 , h2 , h3 , h4 , h5  {
+    color: $dark-blue !important ;
+}
+p {
+    color: $grayish-blue !important  ;
+}
+
+
+//   html {
+//     font-size: 62.5%;
+
+
+//     @media (max-width: 991px) {
+//         font-size: 55%;
+//     }
+
+//     @media (max-width: 375px) {
+//         font-size: 50%;
+//     }
+
+// }
+
+
+
+.mainBtn {
+    background: linear-gradient(135deg, $lime-green , $bright-cyan) !important;
+    padding: 8px 18px !important;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+    width: 160px;
+    color: white !important;
+    &:hover {
+        opacity: .5;
+
+    }
+}
+
+.section-padding {
+    padding-top: 170px;
+    padding-bottom: 170px;
+
+    @media (max-width : 767px) {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+}
+
+
+
+
+// Home
+
+
+#home {
+   
+
+    .content {
+        @media(max-width : 767px) {
+            margin-top: 210px;
+        }
+    }
+
+}
+
+.image-container {
+    img {
+        position: absolute;
+    }
+
+  .intro-desktop-img , .intro-mobile-img {
+        z-index: -2;
+        top: -40px;
+    }
+
+    .mobile-img {
+        right: -100px;
+        top: -50px;
+        z-index: -1;
+
+
+        @media(max-width : 767px) {
+            right: 0;
+
+            width: 100% !important;
+        }
+
+    }
+
+
+
+}
+
+
+// About
+
+#about {
+    background: $light-grayish-blue;
+}
+
+
+.card {
+    border : none !important ;
+    width : 16.5rem !important ;
+    @media(max-width : 767px) {
+        width: 21rem !important;
+    }
+}
+
+// Footer
+
+footer {
+    background: $dark-blue ;
+    padding : 70px 0 ;
+}
